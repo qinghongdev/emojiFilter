@@ -13,6 +13,7 @@
 		8507BD881CBFA4E80093F300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8507BD861CBFA4E80093F300 /* Main.storyboard */; };
 		8507BD8A1CBFA4E80093F300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8507BD891CBFA4E80093F300 /* Assets.xcassets */; };
 		8507BD8D1CBFA4E80093F300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8507BD8B1CBFA4E80093F300 /* LaunchScreen.storyboard */; };
+		85C4570B1CBFC6A3004FE1EB /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C4570A1CBFC6A3004FE1EB /* RoundedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8507BD891CBFA4E80093F300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8507BD8C1CBFA4E80093F300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8507BD8E1CBFA4E80093F300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C457091CBFC6A3004FE1EB /* RoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedButton.h; sourceTree = "<group>"; };
+		85C4570A1CBFC6A3004FE1EB /* RoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				8507BD811CBFA4E80093F300 /* AppDelegate.m */,
 				8507BD831CBFA4E80093F300 /* ViewController.h */,
 				8507BD841CBFA4E80093F300 /* ViewController.m */,
+				85C457091CBFC6A3004FE1EB /* RoundedButton.h */,
+				85C4570A1CBFC6A3004FE1EB /* RoundedButton.m */,
 				8507BD861CBFA4E80093F300 /* Main.storyboard */,
 				8507BD891CBFA4E80093F300 /* Assets.xcassets */,
 				8507BD8B1CBFA4E80093F300 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				8507BD851CBFA4E80093F300 /* ViewController.m in Sources */,
 				8507BD821CBFA4E80093F300 /* AppDelegate.m in Sources */,
 				8507BD7F1CBFA4E80093F300 /* main.m in Sources */,
+				85C4570B1CBFC6A3004FE1EB /* RoundedButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				8507BD931CBFA4E80093F300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
