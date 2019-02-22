@@ -17,8 +17,7 @@
 
 
 - (void)initialHandle {
-    self.layer.cornerRadius = 4.0;
-    
+    self.layer.cornerRadius = 4.0;   
 }
 
 @end
